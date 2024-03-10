@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site</title>
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Meu Site</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Este é um site criado com HTML, CSS e Bootstrap.</p>
+      </div>
+    </div>
+  </div>
+
+  <p style="color: black;" margin: 0;>
+    O Lorem Ipsum é um texto modelo da indústria tipográfica e de 
+    impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
+    estas indústrias desde o ano de 1500, quando uma misturou os 
+    caracteres de um texto para criar um espécime de livro. 
+    <br><br> 
+    <a href="https://br.lipsum.com/feed/html">Link</a>
+    <hr>
+        <!-- //quebra de linha/ -->
+</p>
+
+<p>
+    O Lorem Ipsum é um texto modelo da indústria tipográfica e de 
+    impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
+    estas indústrias desde o ano de 1500, quando uma misturou os 
+    caracteres de um texto para criar um espécime de livro. 
+    <br><br> 
+    <a href="https://br.lipsum.com/feed/html">Link</a>
+    <hr>
+        <!-- //quebra de linha/ -->
+</p margin: 10;>
+
+<figure>
+    <img src="img/beatriz/beatriz1.JPG" alt="Terapeuta beatriz"/>
+    <figcaption>Terapia</figcaption>
+    
+</figure>
+<figure>
+    <img src="img/beatriz/beatriz2.jpeg" alt="Perfil">
+    <figcaption>Perfil</figcaption>
+</figure>
+</section>
+<video controls width="500px">
+<source src="video/rabbitlili.mp4" type="video/mp4">
+<source src="video/rabbitlili.webm" type="video/webm">
+Seu navegador não suporta o formato do video. <a href="video/rabbitlili.webm">Clique aqui para baixar</a>
+</video>
+<section>
+<h2>Contato</h2>
+
+<form method="GET" action="">
+    <fieldset>
+           <legend>Dados da viagem</legend>
+            <label>Nome</label><br>
+            <input type="=text" name="nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" required name="email"><br><br>
+
+            <label>Data de idaa</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de volta</label>><br><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qntdPessoas"><br><br>
+    </fieldset>
+   
+
+    <fieldset>
+            <legend>Quais servicos deseja contratar?</legend>
+            <label>
+             <br><input type="checkbox" name="passagens" value="Passagens">Compra de passagens
+            </label>
+
+             <label>
+            <br><input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem
+             </label>
+
+            <label>
+            <br><input type="checkbox" name="veiculos" value="Veiculo">Reserva de veiculos
+             </label>
+    </fieldset>
+
+    <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartao de credirto">Cartão de Crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <br><input type="radio" name="formaPagamento" value="Pix">Pix
+                <label>
+                </label>
+        </fieldset>
+
+        <fieldset>
+              <legend>Escolha o prazo para pagamento</legend>
+              <select name="prazoPagamento">
+                  <option value="aVista">À vista</option>
+                  <option value="5x">5x sem juros</option>
+                  <option value="10x" select >10x com juros</option>
+              </select>
+        </fieldset>
+        
+
+    <label>Senha</label><br><br>
+    <input type="password" name="senha"><br><br>
+
+    <label>Comentarios</label><br>
+    <textarea rows="5" name="Comentarios"></textarea></textarea><br><br>
+
+    <button>Salvar</button>
+</form>
+</section>
+<br><br>
+<section>
+<h2>Taxas e servicos</h2>
+<p>Veja nossas taxas para servicos</p>
+<table border>
+<caption>Descricao dos servicoes e respectivos valores</caption>
+<thead>
+    <tr>
+        <th>
+            Servico
+        </th>
+        <th>  
+            Valor
+        </th>
+        </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+            Reserva de hotel
+        </td>
+        <td>
+            R$500,00
+         </td>
+         </tr>
+         <tr>
+            <td>
+                Compra de passagens 
+            </td>
+            <td>
+                R$100,00
+            </td>
+        </tr>  
+</tbody>
+</table>  
+</section>
+<footer>
+  <footer class="footer mt-auto py-3 bg-dark">
+    <div class="container text-center">
+      <span class="text-light">© 2024 Meu Site</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
